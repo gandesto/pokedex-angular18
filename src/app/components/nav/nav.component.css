@@ -1,6 +1,19 @@
-.pokemon-nav {
-    display: flex;
-    justify-content: center;
-    background-color: #cc0000;
-    font-size: 1.8rem;
-  }
+.navbar{
+  background-color: rgb(210, 106, 106);
+}
+
+.nav-link,
+.nav-link.active,
+.navbar-brand{
+  color: rgb(255, 255, 255);
+}
+
+#imgPokeball{
+  width: 35px;
+  height: 35px;
+  border-radius: 90%;
+}
+
+#imgPokeball:hover{
+  box-shadow: 0 0 25px rgb(231, 223, 223);
+}

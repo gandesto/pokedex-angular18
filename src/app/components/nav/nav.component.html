@@ -1,4 +1,33 @@
-<nav class="pokemon-nav">   
-    <h1>pokemons</h1>
-</nav>
-<app-pokemon-list>
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Pokedex</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Videogames</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">GCC Pokemon</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-disabled="true">TV Pokemon</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-disabled="true">News!</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search a Pokemon" aria-label="Search">
+          <input alt="pokeballBtn" type="image" id="imgPokeball" src="../../../assets/pokeball.png">
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <app-pokemon-list/>
