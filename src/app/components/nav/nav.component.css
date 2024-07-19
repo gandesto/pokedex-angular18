@@ -1,19 +1,65 @@
-.navbar{
-  background-color: rgb(210, 106, 106);
+#container{
+  padding: 35px;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
+
+.navbar{  
+  background-color: rgb(210, 106, 106);
+  margin-bottom: 20px;
+}
+
+nav{
+  border-radius: 15px;
+}
+
+.navbar-nav{
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .nav-link,
 .nav-link.active,
 .navbar-brand{
   color: rgb(255, 255, 255);
 }
 
-#imgPokeball{
-  width: 35px;
-  height: 35px;
-  border-radius: 90%;
+
+
+.submit-btn{
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-radius: 50px;
+  padding: 0;
+}
+.submit-btn img{
+  height: 100%;
+  object-fit: cover;
+}
+.submit-btn:hover{
+  box-shadow: 0 0 25px rgb(218, 68, 68);
+  transition: 0.3s ease-in-out;
 }
 
-#imgPokeball:hover{
-  box-shadow: 0 0 25px rgb(231, 223, 223);
+.form-pokemon{
+  width: 60%;
+  border: 2px solid gray;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.pokemon-input{
+  border: none;
+  outline: 0;
+  padding: 15px 10px;
+  background: none;
 }
