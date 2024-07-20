@@ -18,4 +18,8 @@ export class PokemonService {
       )
       ;
   }
+
+  async getById(id : string){
+    const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
+  }
 }

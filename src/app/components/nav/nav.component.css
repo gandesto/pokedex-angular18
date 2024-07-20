@@ -55,11 +55,14 @@ nav{
   align-items: center;
   justify-content: space-between;
   padding-right: 10px;
+
 }
 
 .pokemon-input{
+  width: 100%;
   border: none;
   outline: 0;
   padding: 15px 10px;
   background: none;
+
 }

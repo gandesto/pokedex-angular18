@@ -1,3 +1,14 @@
-<div class="pokemon-card">
-    <p>{{ pokemonInfo.name }}</p>
-</div>
+<!-- <div class="pokemon-card" >
+    <img src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{pokemonID}}.png' alt="pokemonPhoto">
+    <span> No.{{ pokemonID}} </span>
+    <span>{{ pokemonInfo.name | titlecase }}</span>
+</div> -->
+
+
+<div class="card" style="width: 10rem;">
+    <img src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{pokemonID}}.png' class="card-img-top" alt="pokemonPhoto">
+    <div class="card-body">
+      <p class="card-text">No.{{ pokemonID}}</p>
+      <p>{{ pokemonInfo.name | titlecase }}</p>
+    </div>
+  </div>
